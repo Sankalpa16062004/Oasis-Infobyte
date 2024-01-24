@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: 'Chakra Petch', sans-serif;;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    border-radius: 8px;
+    box-shadow: 0px 0px 40px 3px rgba(0, 0, 0, 0.4);
+  }
+
+  .header h1{
+    color: #0c0c0c;
+    height: 55px;
+    width: 500px;
+   
+  }
+  
+  .temperature-icon i {
+    font-size: 2rem;
+    margin-left: -50px;
+    
+  }
+  
+  /* Body Styles */
+  body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg');
+    background-size: 100%;
+  }
+  
+  /* Container Styles */
+  .containers {
+    max-width: 450px;
+    width: 98%;
+    height: auto;
+    margin: 20px;
+    background: transparent;
+    border-radius: 8px;
+    box-shadow: 0px 0px 40px 3px rgba(0, 0, 0, 0.4);
+    font-family: sans-serif;
+    padding: 75px 68px;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Input Styles */
+  .temperature-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    opacity: 1;
+  }
+  
+  .temperature-input input {
+    flex: 5;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 8px 0 0 8px;
+    padding: 0 10px;
+  }
+  
+  .temperature-input .unit {
+    flex: 1;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 5px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    background: #0d0d0d;
+    color: #f9f8f8;
+    border-radius: 0 8px 8px 0;
+  }
+  
+  /* Button Styles */
+  .button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  /* Clear all button */
+  .Btn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100px;
+    height: 40px;
+    border: none;
+    padding: 0px 10px;
+    background-color: rgb(15, 16, 16);
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px rgb(25, 2, 236);
+    transition-duration: 0.3s;
+  }
+  
+  
+  .fa-broom {
+    width: 10px;
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+    transition-duration: 0.3s;
+  }
+  
+  .Btn:hover span {
+    color: transparent;
+  }
+  
+  .Btn:hover .fa-broom {
+    right: 43%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    transition-duration: 0.3s;
+  }
+  
+  .Btn:active {
+    transform: translate(3px, 3px);
+    transition-duration: 0.3s;
+    box-shadow: 2px 2px 0px rgb(140, 32, 212);
+  }
+  
